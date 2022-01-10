@@ -61,6 +61,7 @@ public class ArticleController {
         return Result.ok().put("article",article);
     }
 
+
     @PostMapping("/save")
     @RequiresPermissions("article:save")
     @CacheEvict(allEntries = true)
