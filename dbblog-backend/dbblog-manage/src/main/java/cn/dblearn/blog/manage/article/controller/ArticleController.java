@@ -54,7 +54,6 @@ public class ArticleController {
         return Result.ok().put("page",page);
     }
 
-
     @GetMapping("/info/{articleId}")
     @RequiresPermissions("article:list")
     public Result info(@PathVariable Integer articleId) {
