@@ -37,6 +37,7 @@ import java.util.regex.Pattern;
 @CacheConfig(cacheNames ={RedisCacheNames.RECOMMEND,RedisCacheNames.TAG,RedisCacheNames.ARTICLE,RedisCacheNames.TIMELINE})
 public class ArticleController {
 
+
     @Resource
     private ArticleService articleService;
 
